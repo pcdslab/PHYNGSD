@@ -48,11 +48,11 @@ To clean up object files generated during compilation in the directory and the `
 make clean
 ```
 
-## Running phyNGSD
+## Running phyNGSC
 
 To run phyNGSC for compression go to [this link](https://github.com/pcdslab/PHYNGSC) for instruction.
 
-To run phyNGSC for compression, execute the command
+To run phyNGSC for **decompression**, execute the command
 
 ```
 mpiexec -np <num_of_processes> ./phyNGSD <input_file> <output_file> <num_of_threads>
@@ -77,7 +77,7 @@ mpiexec -np 8 ./phyNGSD input.NGSC output.fastq 5
 
 ## Dataset Files
 
-In this project a NGSC file named `input.ngsc` is provided for your testing purposes. It represents a FASTQ file of 100 MB, so make sure to have enough space for the decompression process.
+In this project an NGSC file named `input.ngsc` is provided for your testing purposes. It represents a FASTQ file of 100 MB, so make sure to have enough space for the decompression process.
 
 ## Authors
 
